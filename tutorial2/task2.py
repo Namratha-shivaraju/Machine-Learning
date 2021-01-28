@@ -19,6 +19,6 @@ slp, intr = parameters(x,y)
 
 abline_values = [slp * i + intr for i in x]
 plt.scatter(x,y)
-plt.plot(x, y,)
+plt.plot(x, y)
 plt.plot(x, abline_values, 'g')
 plt.show()
